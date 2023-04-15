@@ -50,7 +50,7 @@ namespace MixTest
         public Point[] NearestVehicle()
         {
             // Read binary data and store vehicle positions
-            var vehiclePositions = ReadBinaryData("C:\\Users\\HomePC\\source\\repos\\MixTest\\MixTest\\VehiclePositions.dat");
+            var vehiclePositions = ReadBinaryData("VehiclePositions.dat");
             Point[] placesToFind = { 
                 new Point(34.544909, -102.100843),
                  new Point(32.345544, -99.123124),
